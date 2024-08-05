@@ -27,10 +27,3 @@ console.log(myArray1);
 // union 2 Array with "spread" operator
 // const myArray3 = [...myArray1, ...myArray2];
 // console.log(myArray3);
-
-// _________ "map" __________________
-// Array Mapping (method - "map")
-// myArray1.map((myValue) => {
-//   myValue *= 10;
-//   console.log(myValue);
-// });
