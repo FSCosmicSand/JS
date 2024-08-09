@@ -42,6 +42,9 @@ function minimumRating(obj) {
 
   return minRating;
 }
+console.log("maximum: ", biggestRating(berkHobbyRating));
+console.log("minimum: ", minimumRating(berkHobbyRating));
+// --------------------------------------------------------
 // function biggestRating(obj) {
 //   const arrayValueHobbys = Object.values(obj);
 //   console.log(Object.values(obj));
@@ -54,9 +57,6 @@ function minimumRating(obj) {
 //   }
 //   return maxRating;
 // }
-
-console.log("maximum: ", biggestRating(berkHobbyRating));
-console.log("minimum: ", minimumRating(berkHobbyRating));
 
 // let j = 0;
 // for (let i = 0; i < 10; i++) {
