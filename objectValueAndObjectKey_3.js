@@ -1,17 +1,17 @@
 const berkHobbyRating = {
-  basketball: 200,
-  football: 50,
-  pingpong: 100,
-  pingpong2: 300,
-  pingpong3: 250,
-  pingpong4: 1500,
+  basketball: 20,
+  football: 16,
+  pingpong: 14,
+  pingpong2: 15,
+  pingpong3: 25,
+  pingpong4: 24,
 };
 // ______________ find /map (forEach)/ ____________________________
 function findRating(obj) {
   const arrayValueHobbys = Object.values(obj);
   // console.log(Object.values(obj));
 
-  return arrayValueHobbys.find((item) => item === 200);
+  return arrayValueHobbys.find((item) => item === 14);
 }
 
 console.log(

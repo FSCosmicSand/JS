@@ -7,11 +7,11 @@ const a = 5;
 // }
 
 if (a === 10) {
-  console.log("a is not satisfied condition");
+  console.log("a not satisfied condition");
 } else if (a < 4) {
-  console.log("a is not satisfied condition");
+  console.log("a not satisfied condition");
 } else if (a === 5) {
-  console.log("a is satisfied condition");
+  console.log("a satisfied condition");
 }
 
 // if (a < 10 && a > 4) {

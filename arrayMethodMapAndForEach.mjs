@@ -11,10 +11,10 @@ import posts from "./date.mjs";
 //   if (post.id === 90 || post.id === 87) console.log(post);
 //   // console.log(post);
 // });
-const arr = [1, 2, 3, 4, 5];
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "test"];
 const arr2 = arr.forEach((item) => {
   // return item * 2;
-  console.log(item * 2);
+  console.log(item * 3);
 });
 
 // console.log(arr2);

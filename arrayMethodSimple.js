@@ -20,8 +20,8 @@ const myArray2 = ["Mert", 1, false];
 
 // ____________ "shift" _______________
 // delete first element in Array (method - "shift")
-myArray1.shift();
-console.log(myArray1);
+// myArray1.shift();
+// console.log(myArray1);
 
 // _________ "spread" operator __________________
 // union 2 Array with "spread" operator
